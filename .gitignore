@@ -59,6 +59,6 @@ typings/
 
 # next.js build output
 .next
-
+yarn.lock
 .idea
 config/db.js
