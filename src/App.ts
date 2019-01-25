@@ -13,16 +13,6 @@ class App {
 
     public mountRoutes(db): void {
         routes(this.express, db)
-
-
-        // const router = express.Router()
-        //
-        // router.get('/', (req, res) => {
-        //     res.json({
-        //         message: 'Hello World!'
-        //     })
-        // })
-        // this.express.use('/', router)
     }
 
     private setBodyParser(): void {
