@@ -31,7 +31,7 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
-
+dist
 # Dependency directories
 node_modules/
 jspm_packages/
@@ -61,4 +61,4 @@ typings/
 .next
 yarn.lock
 .idea
-config/db.js
+config/db.ts
