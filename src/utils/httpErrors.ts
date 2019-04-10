@@ -2,7 +2,7 @@ export abstract class HTTPClientError extends Error {
     readonly statusCode!: number;
     readonly name!: string;
 
-    constructor(message: object | string) {
+    protected constructor(message: object | string) {
         if (message instanceof Object) {
             super(JSON.stringify(message));
         } else {
