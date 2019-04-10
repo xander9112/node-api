@@ -27,9 +27,6 @@
             "description": "Bad request"
           }
         },
-        "content": {
-          "application/json": {}
-        },
         "parameters": [
           {
             "name": "q",
